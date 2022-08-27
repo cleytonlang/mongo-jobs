@@ -1,0 +1,28 @@
+use('jobs');
+db.company.drop();
+db.company.insertMany([
+  {
+    "name": "Microsoft",
+    "website": "www.microsoft.com",
+    "createdAt": ISODate('2022-08-27')
+  },{
+    "name": "Google",
+    "website": "www.google.com",
+    "createdAt": ISODate('2022-08-27')
+  },
+  {
+    "name": "Amazon",
+    "website": "www.amazon.com",
+    "createdAt": ISODate('2022-08-27')
+  },
+  {
+    "name": "Apple",
+    "website": "www.apple.com",
+    "createdAt": ISODate('2022-08-27')
+  },
+  {
+    "name": "IBM",
+    "website": "www.ibm.com",
+    "createdAt": ISODate('2022-08-27')
+  }
+]);
